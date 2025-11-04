@@ -97,10 +97,7 @@ Maintains convergence while improving throughput
 
 **Base Framework**: CoTrain (ICPP '23)
 
-**Affiliation**: MARS Lab, IISc Bangalore
-
 **Contact**:  
-Karthik Namboori  
-📧 karthik.namboori@fsid-iisc.in | namkarthik2003@gmail.com
+Karthik Namboori  (namkarthik2003@gmail.com)
 
 For collaborations, feature requests, or bug reports, please reach out.
