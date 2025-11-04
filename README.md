@@ -99,7 +99,7 @@ Maintains convergence while improving throughput
 
 **Base Framework**: CoTrain (ICPP '23)
 
-**Affiliation**: MARS Lab, Department of Computational and Data Sciences, Indian Institute of Science (IISc), Bangalore
+**Affiliation**: MARS Lab, IISc Bangalore
 
 **Contact**:  
 Karthik Namboori  
