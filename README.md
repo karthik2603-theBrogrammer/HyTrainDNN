@@ -68,17 +68,15 @@ Dynamic parameter splitting and CPU–GPU transfers of HyTrainDNN preserves stab
 
 ## 6. GPU Activity Trace
 
-The figure below shows GPU activity visualized using [VizTracer](https://github.com/gaogaotiantian/viztracer).
+The figure below shows GPU activity (only) visualized using [VizTracer](https://github.com/gaogaotiantian/viztracer).
 
 - **Stream 7**: Forward and backward GPU kernels
-- **Streams 13 & 17**: Host -> Device & Device -> Host (CPU<–>GPU) data transfers.
-
-This visualization demonstrates how HyTrainDNN overlaps gradient computation and parameter updates (both on CPU and GPU) to minimize GPU idle periods.
-
+- **Streams 13 & 17**: Device -> Host (gradients) & Host -> Device (updated parameters) data transfers.
 
 | Before | After |
 |--------|-------|
 | ![Before optimization](img_before.png) | ![After optimization](img_after.png) |
+| This image shows base parallelism between BWD and Updates (CPU only) | This image shows BWD & Updates in parallel along with GPU updates (in green) to reduce GPU idling.|
 
 
 ## 7. Key Features
