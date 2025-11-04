@@ -1,0 +1,2 @@
+[console_scripts]
+colossalai = colossalai.cli:cli
