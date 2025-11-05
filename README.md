@@ -58,6 +58,7 @@ Experiments were conducted on:
 - **GPU**: NVIDIA A100 (80 GB HBM)
 - **CPU**: AMD EPYC (HPC cluster)
 - **Model & Batch Size**: LLaMA2-10B with BS = 8.
+- **Training Throughput**: ~23 TF/s
 - **Hyperparameters**: α = 0.083, k = 0.1-0.2 (estimated dynamically)
 
 ### Loss Convergence
